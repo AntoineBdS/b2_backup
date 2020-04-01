@@ -2,7 +2,7 @@
 # Set variables
 
 GPGKEY=0x0000000000000000
-BBBUCKET=auto-backup # BackBlaze BUCKET
+BBBUCKET=bucketName # BackBlaze BUCKET
 BBDIR=archives # BackBlaze DIRectory (e.g. machine name)
 
 for arg in "$@"; do
