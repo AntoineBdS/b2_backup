@@ -3,7 +3,7 @@
 
 GPGKEY=0x0000000000000000
 BBBUCKET=bucketName # BackBlaze BUCKET
-BBDIR=archives # BackBlaze DIRectory (e.g. machine name)
+BBDIR=machineName # BackBlaze DIRectory (e.g. machine name)
 
 for arg in "$@"; do
 	BUFILE=$(readlink -f "$arg") # BackUp FILE
